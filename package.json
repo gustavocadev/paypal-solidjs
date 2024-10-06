@@ -1,0 +1,23 @@
+{
+  "name": "paypal-solid",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "build": "rsbuild build",
+    "check": "biome check --write",
+    "dev": "rsbuild dev --open",
+    "format": "biome format --write",
+    "preview": "rsbuild preview"
+  },
+  "dependencies": {
+    "@paypal/paypal-js": "^8.1.2",
+    "solid-js": "^1.8.22"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^1.8.3",
+    "@rsbuild/core": "^1.0.1",
+    "@rsbuild/plugin-babel": "^1.0.1",
+    "@rsbuild/plugin-solid": "^1.0.1",
+    "typescript": "^5.5.2"
+  }
+}
